@@ -1,35 +1,180 @@
-* {
+body {
+  font: 20px/1.5  Arial, sans-serif;
+  padding: 0;
+  margin = 0;
+  background-image: url("img.jpg");
+  color : white;
+}
+
+.container {
+   width:80%;
+   margin: auto;
+   overflow: hidden;
+ }
+.button1{
+  height: 38px;
+  background: Orange;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+/* Header */
+
+ header {
+   font-size: 40px;
+   background-color: #1E1B1B;
+   color : Orange;
+   min-height: 70px;
+   border-bottom: orange 3px solid;
+   text-transform: uppercase;
+ }
+
+ header a {
+   color:white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 20px;
+ }
+
+ header ul{
+   padding: 0;
+   margin: 0;
+}
+
+ header li {
+   text-align: center;
+   display: inline;
+   padding: 30px;
+
+}
+
+ header #branding {
+   text-align: center;
+ }
+
+ header #branding h1 {
+   margin: 0;
+ }
+
+ header nav {
+   float: right;
+   margin-top: 0;
+ }
+
+header .highlight, a{
+ color :Crimson;
+ font-weight: bold;
+}
+
+header a:hover {
+  color: Crimson;
+  font-weight: bolder;
+}
+
+a:active {
+    background-color: Black;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  font-size: 20px;
+  background-image: url("bgimg.jpg");
+  background-size: cover ;
+  color: white;
   text-align: center;
-  background-color: Black;
-  }
-
-
-.heading {
-  font-size: 48px;
-  color: Blue;
-  font-family: "Futura";
+  font-family: Verdana;
   font-weight: bold;
 }
 
-ul {
-  padding: 20px;
-  margin: 0;
-  background-color:Black;
+#showcase h1 {
+  font-family: Arial;
+  margin-top: 100px;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
-li {
-  display: inline;
-  padding:20px;
-  margin: 1.0px;
-  font-size: 36px;
+#showcase .color, a{
+  color: Crimson;
+}
+
+#showcase .color1, a{
+  color: Orange;
+}
+
+/* Newsletter */
+
+#newsletter {
+  padding: 10px;
+  color: white;
+  background-color: #1E1B1B;
+}
+
+#newsletter h1 {
+  color: Crimson;
+  text-transform: uppercase;
+  float:left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 30px;
+}
+
+#newsletter input[type="email"] {
+padding : 4px;
+height :25px;
+width: 250px;
+}
+
+#Options {
+  margin-top: 20px;
+}
+
+#Options .Option {
+
+  float: left;
+  width:30%;
+  padding: 15px;
+  text-align: center;
+
+}
+
+#Options .Option h3 {
+  color: Orange;
+  font-weight: bold;
+  font-size: 25px;
   font-family: "Times";
-  background-color: Green;
+  text-transform: uppercase;
+}
+
+#Options .Option p {
+  color: Silver;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: georgia;
+  text-transform: none;
 
 }
 
-p {
-   font-size: 32px;
-   font-family: "Monotype Corsiva";
-   font-style: italic;
-   color: white;
+#Options .Option img {
+  width: 300px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: Orange;
+  text-transform: capitalize;
+  background-color: #1E1B1B;
+  text-align: center;
 }
