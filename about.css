@@ -1,0 +1,73 @@
+body {
+  font: 20px/1.5px, Georgia, sans-serif;
+  margin=0;
+  padding: 0;
+  background-image: url("img.jpg");
+
+  color : white;
+}
+
+.container
+{
+  width=80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 40px;
+  background-color: #212F3C;
+  color : Teal;
+  min-height: 70px;
+  border-bottom: orange 3px solid;
+  text-transform: uppercase;
+
+}
+
+header .highlight, a {
+  color: SkyBlue;
+}
+
+#about h2, #about h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: Teal;
+  font-family: "Verdana";
+  text-transform: uppercase;
+}
+
+#about p {
+  text-align: center;
+  text-transform: none;
+  font-size: 20px;
+  color: Silver;
+  font-weight: lighter;
+  font-family: Georgia;
+}
+
+#contact h1{
+  text-align:left;
+  font-size: 30px;
+  color: SkyBlue;
+}
+
+ul  {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial;
+  color: Silver;
+  font-weight: bold;
+
+}
