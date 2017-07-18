@@ -23,7 +23,7 @@ header h1 {
   background-color: #212F3C;
   color : Teal;
   min-height: 70px;
-  border-bottom: orange 3px solid;
+  border-bottom: teal 3px solid;
   text-transform: uppercase;
 
 }
