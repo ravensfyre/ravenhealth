@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+  background-color: Black;
+  }
+
+
+.heading {
+  font-size: 48px;
+  color: Blue;
+  font-family: "Futura";
+  font-weight: bold;
+}
+
+ul {
+  padding: 20px;
+  margin: 0;
+  background-color:Black;
+}
+
+li {
+  display: inline;
+  padding:20px;
+  margin: 1.0px;
+  font-size: 36px;
+  font-family: "Times";
+  background-color: Green;
+
+}
+
+p {
+   font-size: 32px;
+   font-family: "Monotype Corsiva";
+   font-style: italic;
+   color: white;
+}
