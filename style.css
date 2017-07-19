@@ -2,8 +2,8 @@ body {
   font: 20px/1.5  Arial, sans-serif;
   padding: 0;
   margin = 0;
-  background-image: url("img.jpg");
-  color : white;
+  background-image: url("bgimg.jpg");
+  color : Black;
 }
 
 .container {
@@ -13,11 +13,12 @@ body {
  }
 .button1{
   height: 38px;
-  background: Orange;
+  background: Skyblue;
   border: 0;
+  border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  color: white;
+  color: Black;
   font-family: Verdana;
   font-weight: bold;
   font-size: 10px;
@@ -27,30 +28,42 @@ body {
 
  header {
    font-size: 40px;
-   background-color: #1E1B1B;
-   color : Orange;
+   background-color:transparent;
+   color : DarkRed;
    min-height: 70px;
-   border-bottom: orange 3px solid;
+   border-bottom: DarkBlue 3px solid;
    text-transform: uppercase;
  }
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
 
- header a {
-   color:white;
-   text-decoration: none;
-   text-transform: uppercase;
-   font-size: 20px;
  }
 
- header ul{
-   padding: 0;
-   margin: 0;
-}
+ li {
 
- header li {
-   text-align: center;
-   display: inline;
-   padding: 30px;
+   float: left;
+ }
 
+ li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 15px;
+     text-decoration: none;
+ }
+
+ /* Change the link color to #111 (black) on hover */
+ li a:hover {
+     background-color: skyblue;
+ }
+
+.active {
+  text-transform: uppercase;
+  color: red;
 }
 
  header #branding {
@@ -67,30 +80,31 @@ body {
  }
 
 header .highlight, a{
- color :Crimson;
+ color : DarkBlue;
  font-weight: bold;
 }
 
 header a:hover {
-  color: Crimson;
+  color: Maroon;
   font-weight: bolder;
 }
 
 a:active {
-    background-color: Black;
+    background-color: Plum;
 }
 
 /* Showcase */
 
 #showcase {
   min-height: 400px;
-  font-size: 20px;
-  background-image: url("bgimg.jpg");
-  background-size: cover ;
-  color: white;
+  font-size: 25px;
+ background-image: url("img.jpg");
+  background-size: cover;
+  color: Black;
   text-align: center;
-  font-family: Verdana;
+  font-family: verdana;
   font-weight: bold;
+
 }
 
 #showcase h1 {
@@ -102,11 +116,11 @@ a:active {
 }
 
 #showcase .color, a{
-  color: Crimson;
+  color: DarkBlue;
 }
 
 #showcase .color1, a{
-  color: Orange;
+  color: DarkRed;
 }
 
 /* Newsletter */
@@ -114,11 +128,11 @@ a:active {
 #newsletter {
   padding: 10px;
   color: white;
-  background-color: #1E1B1B;
+  background-color: steelblue;
 }
 
 #newsletter h1 {
-  color: Crimson;
+  color: MidnightBlue;
   text-transform: uppercase;
   float:left;
 }
@@ -148,18 +162,26 @@ width: 250px;
 }
 
 #Options .Option h3 {
-  color: Orange;
+  color: darkred;
   font-weight: bold;
+  border: 1px;
+  border-radius: 20px;
+  background-size: cover;
   font-size: 25px;
-  font-family: "Times";
+  font-family: "Arial";
   text-transform: uppercase;
 }
 
 #Options .Option p {
-  color: Silver;
-  font-size: 20px;
+  color: Black;
+  font-size: 18px;
+  text-align: center;
+  background-color: steelblue;
+  border: 1px;
+  border-radius: 20px;
+  background-size: cover;
   font-weight: lighter;
-  font-family: georgia;
+  font-family: verdana;
   text-transform: none;
 
 }
@@ -173,8 +195,8 @@ width: 250px;
 footer {
   padding: 20px;
   margin-top: 20px;
-  color: Orange;
+  color: darkblue;
   text-transform: capitalize;
-  background-color: #1E1B1B;
+  background-color: transparent;
   text-align: center;
 }
