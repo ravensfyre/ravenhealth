@@ -98,7 +98,7 @@ a:active {
 #showcase {
   min-height: 400px;
   font-size: 25px;
- background-image: url("img.jpg");
+ background-image: url("./img.jpg");
   background-size: cover;
   color: Black;
   text-align: center;
