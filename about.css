@@ -1,73 +1,187 @@
 body {
-  font: 20px/1.5px, Georgia, sans-serif;
-  margin=0;
+  font: 20px/1.5  Arial, sans-serif;
   padding: 0;
-  background-image: url("img.jpg");
-
-  color : white;
+  margin = 0;
+  background-image: url("aboutbg.jpg");
+  color : Black;
 }
 
-.container
-{
-  width=80%;
-  margin:auto;
-  overflow: hidden;
-}
-
-header h1 {
-  padding: 0;
-  margin: 0;
-  margin-top: 0px;
-  text-align: center;
-  font-size: 40px;
-  background-color: #212F3C;
-  color : Teal;
-  min-height: 70px;
-  border-bottom: teal 3px solid;
-  text-transform: uppercase;
-
-}
-
-header .highlight, a {
-  color: SkyBlue;
-}
-
-#about h2, #about h1 {
-  text-align: center;
-  font-size: 25px;
+.container {
+   width:80%;
+   margin: auto;
+   overflow: hidden;
+ }
+.button1{
+  height: 38px;
+  background: Indigo;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: White;
+  font-family: Verdana;
   font-weight: bold;
-  color: Teal;
-  font-family: "Verdana";
+  font-size: 10px;
   text-transform: uppercase;
 }
+/* Header */
 
-#about p {
-  text-align: center;
-  text-transform: none;
-  font-size: 20px;
-  color: Silver;
-  font-weight: lighter;
-  font-family: Georgia;
+ header {
+   font-size: 40px;
+   background-color:transparent;
+   color : Indigo;
+   min-height: 70px;
+   border-bottom: DarkViolet 3px solid;
+   text-transform: uppercase;
+ }
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
+
+ li {
+
+   float: left;
+ }
+
+ li a {
+     display: block;
+     color: Black;
+     text-align: center;
+     padding: 15px;
+     text-decoration: none;
+ }
+
+ /* Change the link color to #111 (black) on hover */
+ li a:hover {
+     background-color: MistyRose;
+ }
+
+.active {
+  text-transform: uppercase;
+  color: HotPink;
 }
 
-#contact h1{
-  text-align:left;
+ header #branding {
+   text-align: center;
+ }
+
+ header #branding h1 {
+   margin: 0;
+ }
+
+ header nav {
+   float: right;
+   margin-top: 0;
+ }
+
+header .highlight, a{
+ color : DarkMagenta;
+ font-weight: bold;
+}
+
+header a:hover {
+  color: Maroon;
+  font-weight: bolder;
+}
+
+a:active {
+    background-color: Plum;
+}
+
+/* Newsletter */
+
+#newsletter {
+  padding: 0px;
+  color: white;
+  background-color: BlueViolet;
+}
+
+#newsletter h1 {
+  color: White;
+  text-transform: uppercase;
+  float:left;
+  padding: 0;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 30px;
+}
+
+#newsletter input[type="email"] {
+padding : 4px;
+height :25px;
+width: 250px;
+}
+
+
+#about .container h1, #about .container h2 {
   font-size: 30px;
-  color: SkyBlue;
-}
-
-ul  {
-  text-align: left;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-
-  padding: 10px;
-  font-size: 20px;
-  font-family: Arial;
-  color: Silver;
+  font-family: verdana;
   font-weight: bold;
+  color: Indigo;
+  text-align: center;
+  text-transform: uppercase;
+}
 
+#about .container p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: georgia;
+  text-transform: none;
+  background: transparent !important;
+  color: black;
+}
+
+
+#contact h1 {
+  font-size: 30px;
+  font-family: verdana;
+  font-weight: bold;
+  color: Indigo;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+#contact ul
+{
+  background: transparent;
+	padding-left: 10%;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+
+  list-style-position: inside;
+}
+
+#contact li {
+  background-color: mediumpurple;
+   padding: 20px;
+   border: 1px;
+   border-style: outset;
+   border-color: hotpink;
+   font-family: arial;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    list-style-type: none;
+    font-size:15px;
+	  font-weight:bold;
+    text-transform:uppercase;
+
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: darkblue;
+  text-transform: capitalize;
+  background-color: transparent;
+  text-align: center;
 }
