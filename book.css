@@ -1,0 +1,100 @@
+body {
+  font: 20px/1.5  Arial, sans-serif;
+  padding: 0;
+  margin = 0;
+  background-image: url("./aboutbg.jpg");
+  color : Black;
+}
+
+.container {
+   width:80%;
+   margin: auto;
+   overflow: hidden;
+ }
+.button1{
+  height: 38px;
+  background: Salmon;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: Black;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+/* Header */
+
+header {
+  font-size: 40px;
+  background-color:transparent;
+  color : DarkRed;
+  min-height: 70px;
+  border-bottom: DarkBlue 3px solid;
+  text-transform: uppercase;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+
+  float: left;
+}
+
+li a {
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  color: White;
+  text-align: center;
+  font-family: courier;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: red;
+}
+
+.active {
+ text-transform: uppercase;
+ color: HotPink;
+}
+
+
+header #branding {
+  text-align: center;
+}
+
+header #branding h1 {
+  float:left;
+  margin:0;
+  padding-left:40px;
+}
+
+header nav {
+  float: right;
+  margin-top: 0;
+}
+
+header .highlight, a{
+color : DarkBlue;
+font-weight: bold;
+}
+
+header a:hover {
+ color: Maroon;
+ font-weight: bolder;
+}
+
+#branding img {
+ float :right;
+}
