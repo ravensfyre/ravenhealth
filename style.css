@@ -2,7 +2,7 @@ body {
   font: 20px/1.5  Arial, sans-serif;
   padding: 0;
   margin = 0;
-  background-image: url("bgimg.jpg");
+  background-image: url("aboutbg.jpg");
   color : Black;
 }
 
@@ -75,7 +75,9 @@ body {
  }
 
  header #branding h1 {
-   margin: 0;
+   float:left;
+   margin:0;
+   padding-left:40px;
  }
 
  header nav {
@@ -93,6 +95,9 @@ header a:hover {
   font-weight: bolder;
 }
 
+#branding img {
+  float :right;
+}
 
 /* Showcase */
 
@@ -166,11 +171,12 @@ width: 250px;
 }
 
 #Options .Option h3 {
-  color: darkred;
+  color: White;
   font-weight: bold;
   border: 1px;
   border-radius: 20px;
   background-size: cover;
+  background-color: Brown;
   font-size: 25px;
   font-family: "Arial";
   text-transform: uppercase;
@@ -180,11 +186,11 @@ width: 250px;
   color: Black;
   font-size: 18px;
   text-align: center;
-  background-color: steelblue;
-  border: 1px;
+  background-color: Wheat;
   border-radius: 20px;
   background-size: cover;
-  font-weight: lighter;
+  font-weight: bold;
+  color: black;
   font-family: Courier;
   text-transform: none;
 
