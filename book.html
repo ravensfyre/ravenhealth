@@ -21,6 +21,7 @@
 <link rel="icon" href="./health.ico"/>
 <title> Raven Healthcare </title>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </head>
 
@@ -48,7 +49,7 @@
 <div class="formfill">
   <div class="info"> Book An Appointment </div>
   <h3> Book now and get a response in 15 minutes! </h3>
-<form action="#" method="post" name="form" class="form-box">
+<form class="form-box">
 <label for="name"> Name : </label><br>
 <input type="text" name="name" class="box" placeholder="Enter Your Name" required><br><br>
 <label for="phone-number"> Phone Number : </label><br>
@@ -61,3 +62,23 @@
 </form>
 </div>
 </section>
+
+<script>
+$('form').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url:'https://ravenhealth.herokuapp.com/patients',
+        type:'post',
+        data:$('form').serialize(),
+        success:function(){
+          alert('Thank you. Your details have been submitted.');
+        }
+    });
+});
+</script>
+
+</body>
+<footer>
+<p> Raven Healthcare, Copyright &copy; 2017<p/>
+</footer>
+</html>

@@ -54,14 +54,14 @@ li a {
   display: block;
   color: White;
   text-align: center;
-  font-family: courier;
+  font-family: Rockwell;
   font-weight: lighter;
   text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    color: red;
+color: Hotpink;
 }
 
 .active {
