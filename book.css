@@ -2,7 +2,7 @@ body {
   font: 20px/1.5  Arial, sans-serif;
   padding: 0;
   margin = 0;
-  background-image: url("./aboutbg.jpg");
+  background-image: url("./plains.jpg");
   color : Black;
 }
 
@@ -29,9 +29,9 @@ body {
 header {
   font-size: 40px;
   background-color:transparent;
-  color : DarkRed;
+  color : Black ;
   min-height: 70px;
-  border-bottom: DarkBlue 3px solid;
+  border-bottom: MediumSpringGreen 3px solid;
   text-transform: uppercase;
 }
 ul {
@@ -66,7 +66,7 @@ li a:hover {
 
 .active {
  text-transform: uppercase;
- color: HotPink;
+ color: YellowGreen;
 }
 
 
@@ -86,7 +86,7 @@ header nav {
 }
 
 header .highlight, a{
-color : DarkBlue;
+color : YellowGreen;
 font-weight: bold;
 }
 
@@ -97,4 +97,110 @@ header a:hover {
 
 #branding img {
  float :right;
+}
+
+#booking
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  font-variant: normal;
+  color: Black;
+  font-weight: bold;
+}
+
+#booking .formfill {
+  width:500px;
+  margin:50px auto;
+  border: 5px;
+  border-color: DarkGreen;
+  border-style: double;
+  border-width: thick;
+
+  background-color: Transparent;
+}
+
+#booking .info {
+  width:100%;
+  padding:8px;
+  text-align: center;
+  font-size:30px;
+  font-weight:bold;
+  font-family: Courier;
+  text-transform: uppercase;
+}
+
+#booking h3 {
+
+  text-align: center;
+  font-size:18px;
+  font-weight:bold;
+  font-family: Courier;
+  text-transform: uppercase;
+
+}
+
+form {
+  text-align: center;
+}
+
+#booking .form-box {
+  padding: 20px;
+}
+
+#booking label {
+  font-size:20px;
+  font-weight:bold;
+  font-family: Century Gothic;
+  text-transform: uppercase;
+  border: 1px;
+  background-color: transparent;
+  border-radius: 0%;
+  width: 50%;
+  border-style:hidden;
+  background-size: contain;
+  border-color: ForestGreen;
+  border-width: medium;
+  color: black;
+}
+#booking .box {
+  width: 100%;
+  padding: 10px;
+}
+
+#booking textarea {
+  width: 70%;
+  font-size: 15px;
+  padding: 20px;
+}
+
+#booking .sub-btn {
+  width: 40%;
+  text-transform: uppercase;
+  font-family: Rockwell;
+  font-weight: lighter;
+  font-size: 25px;
+  border-style: outset;
+  border-color: Lightgreen;
+  background-color: ForestGreen;
+  color:White;
+}
+
+#booking .sub-btn {
+    transition-duration: 0.4s;
+}
+
+#booking .sub-btn:hover {
+    background-color: DarkOrange; /* Green */
+    border-color: orange;
+    border-style:outset;
+}
+
+#booking .box:focus {
+  background-color: lightgreen;
+}
+
+#msg-box:focus {
+background-color:lightgreen;
 }
