@@ -48,16 +48,19 @@ body {
  }
 
  li a {
+     padding-left: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
      display: block;
-     color: Black;
+     color: White;
      text-align: center;
-     padding: 15px;
+
      text-decoration: none;
  }
 
  /* Change the link color to #111 (black) on hover */
  li a:hover {
-     background-color: MistyRose;
+     color: red;
  }
 
 .active {
@@ -119,13 +122,18 @@ width: 250px;
 }
 
 
-#about .container h1, #about .container h2 {
+#about h1, #about h2 {
   font-size: 30px;
   font-family: verdana;
   font-weight: bold;
   color: Indigo;
   text-align: center;
   text-transform: uppercase;
+  border: 1px;
+  border-style: double;
+  border-radius: 10%;
+  border-width: thick;
+  background-color: MistyRose;
 }
 
 #about .container p {
