@@ -20,7 +20,7 @@
 
 <link rel="icon" href="./health.ico"/>
 <title> Raven Healthcare </title>
-
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Kreon|Quando|Vollkorn" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 </head>
@@ -51,30 +51,38 @@
   <h3> Book now and get a response in 15 minutes! </h3>
 <form class="form-box">
 <label for="name"> Name : </label><br>
-<input type="text" name="name" class="box" placeholder="Enter Your Name" required><br><br>
-<label for="phone-number"> Phone Number : </label><br>
-<input type="tel" name="phone-number" class="box" placeholder="Enter Your Phone Number" required><br><br>
+<input type="text" name="name" id="name" placeholder="Enter Your Name" required><br><br>
+<label for="phone_number"> Phone Number : </label><br>
+<input type="tel" name="phone_number" id="phone-number" placeholder="Enter Your Phone Number" required><br><br>
 <label for="email"> Email ID : </label><br>
-<input type="email" name="email" class="box" placeholder="Enter Your Email Address" required><br><br>
+<input type="email" name="email" id="email" placeholder="Enter Your Email Address" required><br><br>
 <label for="message"> Anything else you'd like to share? </label><br>
-<textarea name ="message" id="msg-box" cols="30" rows="10" placeholder="We'd love to hear from you!"></textarea> <br><br>
-<input type="submit" name="submit" value="Submit" class="sub-btn"/>
+<textarea name ="message" id="message" cols="30" rows="10" placeholder="We'd love to hear from you!"></textarea> <br><br>
+<input type="button" name="submit" value="Submit" class="sub-btn"/>
 </form>
 </div>
 </section>
 
-<script>
-$('form').submit(function(e){
+<script> 
+$('.sub-btn').click(function(e) {
     e.preventDefault();
-    $.ajax({
-        url:'https://ravenhealth.herokuapp.com/patients',
-        type:'post',
-        data:$('form').serialize(),
-        success:function(){
-          alert('Thank you. Your details have been submitted.');
-        }
-    });
-});
+    if($('#name').val() == "" || $('#email').val() == "" || $('#phone_number').val() == "") {
+      alert('Please enter all your details');
+    } else {
+      $.ajax({
+          url:'https://ravenhealth.herokuapp.com/patients',
+          type:'post',
+          data:$('form').serialize(),
+          success: function() {
+            $('#name').val("");
+            $('#email').val("");
+            $('#phone-number').val("");
+            $('#message').val("")
+            alert('Thank you. Your details have been submitted.');
+          }
+      });
+    }
+})
 </script>
 
 </body>

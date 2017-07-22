@@ -33,6 +33,7 @@ header {
   min-height: 70px;
   border-bottom: MediumSpringGreen 3px solid;
   text-transform: uppercase;
+  font-family: 'Vollkorn', serif;
 }
 ul {
     list-style-type: none;
@@ -127,7 +128,7 @@ header a:hover {
   text-align: center;
   font-size:30px;
   font-weight:bold;
-  font-family: Courier;
+  font-family: 'Kreon', serif;
   text-transform: uppercase;
 }
 
@@ -136,7 +137,7 @@ header a:hover {
   text-align: center;
   font-size:18px;
   font-weight:bold;
-  font-family: Courier;
+  font-family: 'Kreon', serif;
   text-transform: uppercase;
 
 }
@@ -152,7 +153,7 @@ form {
 #booking label {
   font-size:20px;
   font-weight:bold;
-  font-family: Century Gothic;
+  font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   border: 1px;
   background-color: transparent;
@@ -164,7 +165,7 @@ form {
   border-width: medium;
   color: black;
 }
-#booking .box {
+#booking #name, #booking #email, #booking #phone-number {
   width: 100%;
   padding: 10px;
 }
@@ -203,4 +204,14 @@ form {
 
 #msg-box:focus {
 background-color:lightgreen;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: Black;
+  font-family: 'Quando', serif;
+  text-transform: capitalize;
+  background-color: transparent;
+  text-align: center;
 }
