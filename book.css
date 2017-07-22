@@ -35,6 +35,12 @@ header {
   text-transform: uppercase;
   font-family: 'Vollkorn', serif;
 }
+
+header img {
+  padding: 0px;
+  margin: 0px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -62,7 +68,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-color: Hotpink;
+color: crimson;
 }
 
 .active {
@@ -209,8 +215,9 @@ background-color:lightgreen;
 footer {
   padding: 20px;
   margin-top: 20px;
-  color: Black;
+  color: black;
   font-family: 'Quando', serif;
+  font-size: 15px;
   text-transform: capitalize;
   background-color: transparent;
   text-align: center;

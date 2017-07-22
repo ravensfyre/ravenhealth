@@ -2,7 +2,8 @@ body {
   font: 20px/1.5  Arial, sans-serif;
   padding: 0;
   margin = 0;
-  background-image: url("aboutbg.jpg");
+  background-image: url("medical.jpg");
+  background-size: norepeat;
   color : Black;
 }
 
@@ -32,7 +33,7 @@ body {
    color : DarkRed;
    font-family: 'Vollkorn', serif;
    min-height: 70px;
-   border-bottom: DarkBlue 3px solid;
+   border-bottom: red 3px solid;
    text-transform: uppercase;
  }
  ul {
@@ -67,7 +68,7 @@ body {
 
 .active {
   text-transform: uppercase;
-  color: Lightblue;
+  color: Red;
 
 }
 
@@ -88,7 +89,7 @@ body {
  }
 
 header .highlight, a{
- color : DarkBlue;
+ color : Black;
  font-weight: bold;
 }
 
@@ -101,12 +102,10 @@ header a:hover {
   float :right;
 }
 
-/* Showcase */
-
 #showcase {
   min-height: 400px;
   font-size: 25px;
- background-image: url("./img.jpg");
+ background-image: url("medshow.jpg");
   background-size: cover;
   color: Black;
   text-align: center;
@@ -127,83 +126,73 @@ header a:hover {
 }
 
 #showcase .color, a{
-  color: DarkBlue;
+  color: Black;
 }
 
 #showcase .color1, a{
   color: DarkRed;
 }
 
-/* Newsletter */
 
-#newsletter {
-  padding: 10px;
+/* subjects */
+
+#degree h1 {
+  font-size: 30px;
+  background-color: maroon;
+  font-family: 'Kreon', serif;
   color: white;
-  background-color: steelblue;
 }
 
-#newsletter h1 {
-  color: DarkBlue;
-  text-transform: uppercase;
-  font-family: 'Quando', serif;
-  float:left;
-}
-
-#newsletter form {
-  float: right;
-  margin-top: 30px;
-}
-
-#newsletter input[type="email"] {
-padding : 4px;
-height :25px;
-width: 250px;
-}
-
-#Options {
+#degrees {
   margin-top: 20px;
 }
 
-#Options .Option {
+#degrees .mbbs {
 
-  float: left;
-  width:30%;
-  padding: 15px;
+ float: left;
+  width:33%;
   text-align: center;
 
 }
 
-#Options .Option h3 {
-  color: White;
-  font-weight: bold;
-  border: 1px;
-  border-radius: 20px;
-  background-size: cover;
-  background-image: url(heading.jpg);
+.mbbs:hover {
+  background-color: #F5B7B1;
+}
+
+.mbbs h3 {
   font-size: 25px;
   font-family: 'Kreon', serif;
   text-transform: uppercase;
+  text-decoration: none;
+  display: block;
 }
 
-#Options .Option p {
-  color: Black;
-  font-size: 18px;
+
+/* course */
+#courses {
+  margin-top: 20px;
+}
+
+#courses .course {
+
+ float: left;
+  width:25%;
   text-align: center;
-  background-image: url(bubble.jpg);
-  border-radius: 20px;
-  background-size: cover;
-  font-weight: bold;
-  color: black;
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: none;
 
 }
 
-#Options .Option img {
-  width: 300px;
-  height: 200px;
-  border-radius: 100px;
+.course:hover {
+  background-color: lightgray;
 }
+
+.course h3 {
+  font-size: 25px;
+  font-family: 'Kreon', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+
 
 footer {
   padding: 20px;
