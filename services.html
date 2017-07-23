@@ -58,11 +58,31 @@
  <div class="container">
     <h1> KEEP IN TOUCH! </h1>
   <form>
-    <input type="email" placeholder="Enter your email ID">
+    <input type="email" id="email" placeholder="Enter your email ID">
     <button type="submit" class="button1"> Join! </button>
   </form>
  </div>
 </section>
+
+<script>
+$('.button1').click(function(e) {
+    e.preventDefault();
+    if( $('#email').val() == "") {
+      alert('Please enter all your details');
+    } else {
+      $.ajax({
+          url:'https://ravenhealth.herokuapp.com/patients',
+          type:'post',
+          data:$('form').serialize(),
+          success: function() {
+            $('#email').val("");
+            alert('Thank you. Your details have been submitted.');
+          }
+      });
+    }
+})
+</script>
+
 
 </body>
 
