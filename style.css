@@ -1,0 +1,219 @@
+body {
+  font: 20px/1.5  Arial, sans-serif;
+  padding: 0;
+  margin = 0;
+  background-image: url("./images/aboutbg.jpg");
+  background-image: url("./images/aboutbg.jpg");
+  color : Black;
+}
+
+.container {
+   width:80%;
+   margin: auto;
+   overflow: hidden;
+ }
+
+.button1 {
+  height: 38px;
+  background: Skyblue;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: Black;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+header {
+  font-size: 40px;
+  background-color:transparent;
+  color : DarkRed;
+  font-family: 'Vollkorn', serif;
+  min-height: 70px;
+  border-bottom: DarkBlue 3px solid;
+  text-transform: uppercase;
+ }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ }
+
+li {
+   float: left;
+ }
+
+li a {
+   padding-left: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: block;
+   color: White;
+   text-align: center;
+   font-family: Rockwell;
+   font-weight: lighter;
+   text-decoration: none;
+ }
+
+ /* Change the link color to #111 (black) on hover */
+
+li a:hover {
+   color: crimson;
+ }
+
+.active {
+  text-transform: uppercase;
+  color: Lightblue;
+
+}
+
+header #branding {
+  text-align: center;
+ }
+
+header #branding h1 {
+  float:left;
+  margin:0;
+  padding-left:40px;
+ }
+
+header nav {
+  float: right;
+  margin-top: 0;
+ }
+
+header .highlight, a {
+  color : DarkBlue;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: Maroon;
+  font-weight: bolder;
+}
+
+#branding img {
+  float :right;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 400px;
+  font-size: 25px;
+  background-image: url("./images/img.jpg");
+  background-image: url("./images/img.jpg");
+  background-size: cover;
+  color: Black;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#showcase h1 {
+  font-family: 'Kreon', serif;
+  margin-top: 100px;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#showcase .color, a {
+  color: DarkBlue;
+}
+
+#showcase .color1, a {
+  color: DarkRed;
+}
+
+/* Newsletter */
+
+#newsletter {
+  padding: 10px;
+  color: white;
+  background-color: steelblue;
+}
+
+#newsletter h1 {
+  color: DarkBlue;
+  text-transform: uppercase;
+  font-family: 'Quando', serif;
+  float:left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 30px;
+}
+
+#newsletter input[type="email"] {
+padding : 4px;
+height :25px;
+width: 250px;
+}
+
+#Options {
+  margin-top: 20px;
+}
+
+#Options .Option {
+  float: left;
+  width:30%;
+  padding: 15px;
+  text-align: center;
+}
+
+#Options .Option h3 {
+  color: White;
+  font-weight: bold;
+  border: 1px;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url(./images/heading.jpg);
+  background-image: url(./images/heading.jpg);
+  font-size: 25px;
+  font-family: 'Kreon', serif;
+  text-transform: uppercase;
+}
+
+#Options .Option p {
+  color: Black;
+  font-size: 18px;
+  text-align: center;
+  background-image: url(./images/bubble.jpg);
+  background-image: url(./images/bubble.jpg);
+  border-radius: 20px;
+  background-size: cover;
+  font-weight: bold;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: none;
+}
+
+#Options .Option img {
+  width: 300px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Quando', serif;
+  color: darkblue;
+  text-transform: capitalize;
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+}

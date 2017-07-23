@@ -1,0 +1,201 @@
+body {
+  font: 20px/1.5  Arial, sans-serif;
+  padding: 0;
+  margin = 0;
+  background-image: url("./images/medical.jpg");
+  background-image: url("./images/medical.jpg");
+  background-size: norepeat;
+  color : Black;
+}
+
+.container {
+  width:80%;
+  margin: auto;
+  overflow: hidden;
+ }
+
+.button1 {
+  height: 38px;
+  background: Skyblue;
+  border: 0;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: Black;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+ header {
+   font-size: 40px;
+   background-color:transparent;
+   color : DarkRed;
+   font-family: 'Vollkorn', serif;
+   min-height: 70px;
+   border-bottom: red 3px solid;
+   text-transform: uppercase;
+ }
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+ }
+
+ li {
+   float: left;
+ }
+
+ li a {
+   padding-left: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: block;
+   color: White;
+   text-align: center;
+   font-family: Rockwell;
+   font-weight: lighter;
+   text-decoration: none;
+ }
+
+ /* Change the link color to #111 (black) on hover */
+ li a:hover {
+   color: crimson;
+ }
+
+.active {
+  text-transform: uppercase;
+  color: Red;
+}
+
+ header #branding {
+  text-align: center;
+ }
+
+ header #branding h1 {
+  float:left;
+  margin:0;
+  padding-left:40px;
+ }
+
+ header nav {
+  float: right;
+  margin-top: 0;
+ }
+
+header .highlight, a{
+  color : Black;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: Maroon;
+  font-weight: bolder;
+}
+
+#branding img {
+  float :right;
+}
+
+#showcase {
+  min-height: 400px;
+  font-size: 25px;
+  background-image: url("./images/medshow.jpg");
+  background-image: url("./images/medshow.jpg");
+  background-size: cover;
+  color: Black;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+#showcase h1 {
+  font-family: 'Kreon', serif;
+  margin-top: 100px;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#showcase .color, a{
+  color: Black;
+}
+
+#showcase .color1, a{
+  color: DarkRed;
+}
+
+/* subjects */
+
+#degree h1 {
+  font-size: 30px;
+  background-color: maroon;
+  font-family: 'Kreon', serif;
+  color: white;
+}
+
+#degrees {
+  margin-top: 20px;
+}
+
+#degrees .mbbs {
+  float: left;
+  width:33%;
+  text-align: center;
+}
+
+.mbbs:hover {
+  background-color: #F5B7B1;
+}
+
+.mbbs h3 {
+  font-size: 25px;
+  font-family: 'Kreon', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+
+/* course */
+#courses {
+  margin-top: 20px;
+}
+
+#courses .course {
+  float: left;
+  width:25%;
+  text-align: center;
+}
+
+.course:hover {
+  background-color: lightgray;
+}
+
+.course h3 {
+  font-size: 25px;
+  font-family: 'Kreon', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Quando', serif;
+  color: darkblue;
+  text-transform: capitalize;
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+}
