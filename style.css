@@ -11,7 +11,8 @@ body {
    margin: auto;
    overflow: hidden;
  }
-.button1{
+
+.button1 {
   height: 38px;
   background: Skyblue;
   border: 0;
@@ -24,31 +25,32 @@ body {
   font-size: 10px;
   text-transform: uppercase;
 }
+
 /* Header */
 
- header {
-   font-size: 40px;
-   background-color:transparent;
-   color : DarkRed;
-   font-family: 'Vollkorn', serif;
-   min-height: 70px;
-   border-bottom: DarkBlue 3px solid;
-   text-transform: uppercase;
- }
- ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #333;
+header {
+  font-size: 40px;
+  background-color:transparent;
+  color : DarkRed;
+  font-family: 'Vollkorn', serif;
+  min-height: 70px;
+  border-bottom: DarkBlue 3px solid;
+  text-transform: uppercase;
  }
 
- li {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ }
 
+li {
    float: left;
  }
 
- li a {
+li a {
    padding-left: 100px;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -61,8 +63,9 @@ body {
  }
 
  /* Change the link color to #111 (black) on hover */
- li a:hover {
-     color: crimson;
+
+li a:hover {
+   color: crimson;
  }
 
 .active {
@@ -71,25 +74,24 @@ body {
 
 }
 
-
- header #branding {
-   text-align: center;
+header #branding {
+  text-align: center;
  }
 
- header #branding h1 {
-   float:left;
-   margin:0;
-   padding-left:40px;
+header #branding h1 {
+  float:left;
+  margin:0;
+  padding-left:40px;
  }
 
- header nav {
-   float: right;
-   margin-top: 0;
+header nav {
+  float: right;
+  margin-top: 0;
  }
 
-header .highlight, a{
- color : DarkBlue;
- font-weight: bold;
+header .highlight, a {
+  color : DarkBlue;
+  font-weight: bold;
 }
 
 header a:hover {
@@ -106,7 +108,7 @@ header a:hover {
 #showcase {
   min-height: 400px;
   font-size: 25px;
- background-image: url("./img.jpg");
+  background-image: url("./img.jpg");
   background-size: cover;
   color: Black;
   text-align: center;
@@ -115,7 +117,6 @@ header a:hover {
   word-spacing: 2px;
   text-transform: uppercase;
   font-weight: bold;
-
 }
 
 #showcase h1 {
@@ -126,11 +127,11 @@ header a:hover {
   margin-bottom: 10px;
 }
 
-#showcase .color, a{
+#showcase .color, a {
   color: DarkBlue;
 }
 
-#showcase .color1, a{
+#showcase .color1, a {
   color: DarkRed;
 }
 
@@ -165,12 +166,10 @@ width: 250px;
 }
 
 #Options .Option {
-
   float: left;
   width:30%;
   padding: 15px;
   text-align: center;
-
 }
 
 #Options .Option h3 {
@@ -196,7 +195,6 @@ width: 250px;
   color: black;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: none;
-
 }
 
 #Options .Option img {

@@ -37,15 +37,14 @@ header {
   text-transform: uppercase;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li {
-
   float: left;
 }
 
@@ -63,12 +62,12 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    color: crimson;
+  color: crimson;
 }
 
 .active {
- text-transform: uppercase;
- color: Gold;
+  text-transform: uppercase;
+  color: Gold;
 }
 
 
@@ -87,9 +86,9 @@ header nav {
   margin-top: 0;
 }
 
-header .highlight, a{
-color : Maroon;
-font-weight: bold;
+header .highlight, a {
+  color : Maroon;
+  font-weight: bold;
 }
 
 header a:hover {
@@ -104,7 +103,7 @@ header img {
 
 #branding img {
   margin: 0px;
- float :right;
+  float :right;
 }
 
 /* Newsletter */
@@ -129,11 +128,10 @@ header img {
 }
 
 #newsletter input[type="email"] {
-padding : 4px;
-height :25px;
-width: 250px;
+  padding : 4px;
+  height :25px;
+  width: 250px;
 }
-
 
 #about h1, #about h2 {
   font-size: 30px;
@@ -152,13 +150,13 @@ img {
 
 #about .container p {
   margin: 20px;
-   font-size: 20px;
-   text-align: left;
-   font-weight: bold;
-   font-family: 'Josefin Sans', sans-serif;
-   text-transform: none;
-   background: transparent !important;
-   color: black;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: none;
+  background: transparent !important;
+  color: black;
  }
 
 #contact h1 {

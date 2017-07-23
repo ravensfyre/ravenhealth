@@ -8,11 +8,12 @@ body {
 }
 
 .container {
-   width:80%;
-   margin: auto;
-   overflow: hidden;
+  width:80%;
+  margin: auto;
+  overflow: hidden;
  }
-.button1{
+
+.button1 {
   height: 38px;
   background: Skyblue;
   border: 0;
@@ -25,6 +26,7 @@ body {
   font-size: 10px;
   text-transform: uppercase;
 }
+
 /* Header */
 
  header {
@@ -36,16 +38,16 @@ body {
    border-bottom: red 3px solid;
    text-transform: uppercase;
  }
+
  ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #333;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
  }
 
  li {
-
    float: left;
  }
 
@@ -63,34 +65,32 @@ body {
 
  /* Change the link color to #111 (black) on hover */
  li a:hover {
-     color: crimson;
+   color: crimson;
  }
 
 .active {
   text-transform: uppercase;
   color: Red;
-
 }
 
-
  header #branding {
-   text-align: center;
+  text-align: center;
  }
 
  header #branding h1 {
-   float:left;
-   margin:0;
-   padding-left:40px;
+  float:left;
+  margin:0;
+  padding-left:40px;
  }
 
  header nav {
-   float: right;
-   margin-top: 0;
+  float: right;
+  margin-top: 0;
  }
 
 header .highlight, a{
- color : Black;
- font-weight: bold;
+  color : Black;
+  font-weight: bold;
 }
 
 header a:hover {
@@ -105,7 +105,7 @@ header a:hover {
 #showcase {
   min-height: 400px;
   font-size: 25px;
- background-image: url("medshow.jpg");
+  background-image: url("medshow.jpg");
   background-size: cover;
   color: Black;
   text-align: center;
@@ -133,7 +133,6 @@ header a:hover {
   color: DarkRed;
 }
 
-
 /* subjects */
 
 #degree h1 {
@@ -148,11 +147,9 @@ header a:hover {
 }
 
 #degrees .mbbs {
-
- float: left;
+  float: left;
   width:33%;
   text-align: center;
-
 }
 
 .mbbs:hover {
@@ -167,18 +164,15 @@ header a:hover {
   display: block;
 }
 
-
 /* course */
 #courses {
   margin-top: 20px;
 }
 
 #courses .course {
-
- float: left;
+  float: left;
   width:25%;
   text-align: center;
-
 }
 
 .course:hover {
@@ -192,7 +186,6 @@ header a:hover {
   text-decoration: none;
   display: block;
 }
-
 
 footer {
   padding: 20px;

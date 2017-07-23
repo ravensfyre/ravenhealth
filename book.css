@@ -1,9 +1,9 @@
 body {
-  font: 20px/1.5  Arial, sans-serif;
-  padding: 0;
-  margin = 0;
-  background-image: url("./plains.jpg");
-  color : Black;
+   font: 20px/1.5  Arial, sans-serif;
+   padding: 0;
+   margin = 0;
+   background-image: url("./plains.jpg");
+   color : Black;
 }
 
 .container {
@@ -42,15 +42,14 @@ header img {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li {
-
   float: left;
 }
 
@@ -93,17 +92,17 @@ header nav {
 }
 
 header .highlight, a{
-color : YellowGreen;
-font-weight: bold;
+  color : YellowGreen;
+  font-weight: bold;
 }
 
 header a:hover {
- color: Maroon;
- font-weight: bolder;
+  color: Maroon;
+  font-weight: bolder;
 }
 
 #branding img {
- float :right;
+  float :right;
 }
 
 #booking
@@ -124,7 +123,6 @@ header a:hover {
   border-color: DarkGreen;
   border-style: double;
   border-width: thick;
-
   background-color: Transparent;
 }
 
@@ -139,13 +137,11 @@ header a:hover {
 }
 
 #booking h3 {
-
   text-align: center;
   font-size:18px;
   font-weight:bold;
   font-family: 'Kreon', serif;
   text-transform: uppercase;
-
 }
 
 form {
@@ -195,13 +191,13 @@ form {
 }
 
 #booking .sub-btn {
-    transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
 #booking .sub-btn:hover {
-    background-color: DarkOrange; /* Green */
-    border-color: orange;
-    border-style:outset;
+  background-color: DarkOrange; /* Green */
+  border-color: orange;
+  border-style:outset;
 }
 
 #booking .box:focus {
@@ -209,7 +205,7 @@ form {
 }
 
 #msg-box:focus {
-background-color:lightgreen;
+  background-color:lightgreen;
 }
 
 footer {
