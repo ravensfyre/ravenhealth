@@ -2,7 +2,11 @@ body {
    font: 20px/1.5  Arial, sans-serif;
    padding: 0;
    margin = 0;
+<<<<<<< HEAD:css/book.css
    background-image: url("../images/plains.jpg");
+=======
+   background-image: url("./images/plains.jpg");
+>>>>>>> master:book.css
    color : Black;
 }
 
