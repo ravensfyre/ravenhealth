@@ -2,11 +2,11 @@ body {
   font: 20px/1.5  Arial, sans-serif;
   padding: 0;
   margin = 0;
-<<<<<<< HEAD:css/about.css
+
   background-image: url("../images/bgimg.jpg");
-=======
+
   background-image: url("./images/bgimg.jpg");
->>>>>>> master:about.css
+
   background-size: cover;
   color : Black;
 }
